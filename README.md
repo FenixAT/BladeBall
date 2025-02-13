@@ -16,12 +16,20 @@ Ensure you have Python installed along with the following dependencies:
 ```sh
 pip install opencv-python numpy keyboard pyautogui mss
 ```
+if this doesn't work do:
+```sh
+py -m pip install opencv-python numpy keyboard pyautogui mss
+```
 
 ## Usage
 1. **Run the script**
    ```sh
-   python bladeball_bot.py
+   python BladeballAutoWithGUI.py
    ```
+   or
+      ```sh
+      python BladeballAutoNoGUI.py
+      ```
 2. **Use the GUI** to toggle bot features:
    - **Bot ON/OFF (Insert Key)**: Enables or disables red ball detection.
    - **Random Movement (Home Key)**: Enables or disables random movement.
